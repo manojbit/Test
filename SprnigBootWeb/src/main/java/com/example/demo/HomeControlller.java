@@ -15,7 +15,8 @@ public class HomeControlller {
 		ModelAndView mv = new ModelAndView();
 		mv.addObject("name","helllluuulllll");
 		mv.setViewName("home");
-		return mv;		
+		return mv;	
+		
 	}
 	
 }
